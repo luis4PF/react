@@ -1,0 +1,99 @@
+body{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.calculadora{
+  border-radius: 5px 5px rgb(195, 0, 255);
+  border-style: solid;
+  margin-left: 60px;
+  width: 420px;
+  height: 565px;
+  box-shadow: 10px 5px rgb(195, 0, 255);
+  border-color: rgb(195, 0, 255);
+  border-radius: 20px;;
+  padding-top: 10px;
+  margin-top: 25px;
+}
+
+button{
+   margin-left: 20px;
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(195, 0, 255);
+    border-style: inset;
+    width: 80px;
+    max-height: 100px;
+    height: 77px;
+    font-size: 43px;
+    justify-content: center;
+    margin-bottom: 10px;
+    grid-template-columns: 95px 95px 95px 95px 95px;
+    grid-gap: 8px;
+    grid-template-rows: 100px 100px 100px 100px;
+}
+
+.equal{
+  margin-left: 20px;
+  position: absolute;
+   border-radius: 50px;
+   background-color: rgb(195, 0, 255);
+   border-color: rgb(0, 0, 0);
+   border-style: inset;
+   width: 80px;
+   max-height: 300px;
+   height: 165px;
+   font-size: 43px;
+   justify-content: center;
+   margin-bottom: 10px;
+   grid-template-columns: 95px 95px 95px 95px 95px;
+   grid-gap: 8px;
+   grid-template-rows: 100px 100px 100px 100px;
+}
+
+.result {
+  background-color: rgba(0, 0, 0, 0.048);
+  
+  border-color: rgb(195, 0, 255);
+  border-style: solid;
+  border-radius: 100px;
+  text-align: left;
+  
+  width: 390px;
+  height: 65px;
+  margin-left: 10px;
+}
+
+.value{
+  color:rgb(255, 255, 255);
+  text-shadow: 3px 1px 3px rgb(195, 0, 255);
+  font-size: 50px;
+  padding: 0px 0px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+button:hover{
+  box-shadow: 5px 3px 15px black;
+  background-color: rgb(255, 255, 255);
+  color: rgb(195, 0, 255);
+}
+
+#equal{
+  background-color: rgb(195, 0, 255);
+  color: black;
+}
+
+#equal:hover{
+  background-color: rgb(255, 255, 255);
+}
+
+
+.calc{
+  background-color: rgb(255, 255, 255);
+  color: rgb(195, 0, 255);
+  width: 238px;
+  font-size: 35px;
+  position: absolute;
+  top: -33px;
+  left: 155px;
+}
